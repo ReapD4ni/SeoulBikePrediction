@@ -51,8 +51,6 @@ def show_predict_page():
         st.subheader(f"Estimated number of bicycles rental: {predicted_count[0]:.2f}")
 
 def show_exlpore_page():
-
-
     df = pd.read_csv('SeoulBikeData.csv', encoding='unicode-escape')
 
     st.title("Explore Seoul Bike Data")
