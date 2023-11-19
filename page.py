@@ -15,12 +15,6 @@ page = st.sidebar.selectbox("Predict or Explore", ("Predict", "Explore"))
 
 
 def show_predict_page():
-
-    page_title="Ex-stream-ly Cool App",
-    page_icon="asasdasfdsafa",
-    layout="wide",
-    initial_sidebar_state="expanded"
-
     
     st.title("🚲 Seoul Bike Data Prdeiction 🚲")
 
