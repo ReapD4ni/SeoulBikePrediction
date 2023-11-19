@@ -82,3 +82,14 @@ if page == "Predict":
     show_predict_page()
 else:
     show_exlpore_page()
+
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://hanyangwinter.com/wp-content/uploads/large.jpg");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
