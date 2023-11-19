@@ -87,7 +87,7 @@ st.markdown(
          f"""
          <style>
          .stApp {{
-             background: url("https://hanyangwinter.com/wp-content/uploads/large.jpg");
+             background: url("https://10mag.com/wp-content/uploads/2017/08/18738388_829586110528748_2528080115730434159_o-1-1155x675.jpg");
              background-size: cover
          }}
          </style>
