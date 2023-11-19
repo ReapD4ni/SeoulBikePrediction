@@ -15,7 +15,7 @@ page = st.sidebar.selectbox("Predict or Explore", ("Predict", "Explore"))
 
 
 def show_predict_page():
-    st.title("Seoul Bike Data Prdeiction :bicycle:")
+    st.title("Seoul Bike Data Prdeiction 🚲")
 
     st.write("### We need some information to predict rented bike count")
 
