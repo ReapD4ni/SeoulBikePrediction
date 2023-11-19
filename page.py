@@ -82,15 +82,3 @@ if page == "Predict":
     show_predict_page()
 else:
     show_exlpore_page()
-
-st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background: url("https://10mag.com/wp-content/uploads/2017/08/18738388_829586110528748_2528080115730434159_o-1-1155x675.jpg");
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
