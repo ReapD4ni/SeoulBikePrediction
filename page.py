@@ -67,7 +67,7 @@ def show_exlpore_page():
 
 
     columns = ['Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons']
-    st.subheader('Bikes Rented vs. Weather Conditions')
+    st.subheader('Bikes Rented vs Weather Conditions')
     fig, axes = plt.subplots(3, 2, figsize=(10, 10))
     for i, column in enumerate(columns):
         ax = axes[i // 2, i % 2]
